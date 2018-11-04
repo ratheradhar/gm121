@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gmfacebook"
+            android:icon="@drawable/facebook"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/gmyoutube"
+            android:icon="@drawable/youtube"
+            android:title="Youtube" />
+        <item
+            android:id="@+id/gmtwitter"
+            android:icon="@drawable/twitter"
+            android:title="Twitter" />
+        <item
+            android:id="@+id/gminsta"
+            android:icon="@drawable/instagram"
+            android:title="Instagram" />
+        <item
+            android:id="@+id/gmwhatsapp"
+            android:icon="@drawable/whatsapp"
+            android:title="WhatsApp" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/gmaddress"
+                android:icon="@drawable/ic_place_black_24dp"
+                android:title="Address" />
+
+        </menu>
+    </item>
+
+    <item android:title="Update">
+        <menu>
+            <item
+                android:id="@+id/Updategm"
+                android:icon="@drawable/ic_update"
+                android:title="Update" />
+
+        </menu>
+    </item>
+
+</menu>

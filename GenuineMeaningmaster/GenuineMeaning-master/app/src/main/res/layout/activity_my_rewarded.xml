@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyRewardedActivity">
+
+
+    <TextView
+        android:id="@+id/textviewscore"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:text=" 0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Your Genuine Score"
+        android:textColor="@color/browser_actions_title_color"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnearn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:text="Earn Score"
+        android:textColor="@color/fui_bgAnonymous"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="142dp"
+        android:fontFamily="@font/ramabhadra"
+        android:text="Earn score Button Activated every  59 seconds.
+Earning 5 coin activated every 1 hour."
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="10sp" />
+
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="154dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/genuineearning" />
+
+    <ImageView
+        android:layout_width="59dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textviewscore"
+        android:layout_marginStart="35dp"
+        android:src="@drawable/earncoin" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnearn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:fontFamily="@font/ramabhadra"
+        android:onClick="vediorewarded"
+        android:text="earn 5 coin"
+        android:textColor="@color/fui_bgAnonymous"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="213dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:fontFamily="@font/oswald_light"
+        android:text="Colleect Gift "
+        android:textAlignment="textStart"
+        android:textColor="@color/fui_bgPhone"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="clickclame"/>
+
+</RelativeLayout>

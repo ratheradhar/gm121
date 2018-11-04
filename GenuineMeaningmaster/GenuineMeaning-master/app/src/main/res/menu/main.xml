@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     >
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="your Profile"
+        app:showAsAction="" />
+    <item
+        android:id="@+id/gmabout"
+        android:title="About" />
+
+
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/gmprivacy"
+                android:icon="@drawable/ic_place_black_24dp"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/gmtcondection"
+                android:icon="@drawable/ic_perm_phone_msg_black_24dp"
+                android:title="Terms and Condition" />
+        </menu>
+    </item>
+
+
+
+    <item android:title="Earning">
+        <menu>
+            <item
+                android:id="@+id/gmearning"
+                android:icon="@drawable/ic_perm_phone_msg_black_24dp"
+                android:title="Write Us" />
+            <item
+                android:id="@+id/gmhearning"
+                android:icon="@drawable/ic_place_black_24dp"
+                android:title="Use Web" />
+
+        </menu>
+    </item>
+
+</menu>
